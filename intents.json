@@ -1,6 +1,6 @@
 {"intents": [
         {"tag": "greeting",
-        "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+        "patterns": ["Hi", "Is anyone there?", "Hello", "Good day"],
         "responses": ["Hello, thanks for visiting!", "Hello!", "Hi there, how can I help?", "Welcome!"]
         },
         {"tag": "goodbye",
@@ -16,7 +16,7 @@
         "responses": ["I'm always great. How are you?", "I've never been better. How are you?"]
         },
         {"tag": "doing_great",
-        "patterns": ["I am doing great", "I am well", "I'm great", "awesome", "happy", "better"],
+        "patterns": ["I am doing great", "I am well", "I'm great", "awesome", "good", "great", "happy", "better"],
         "responses": ["Good!", "Great!", "Glad to hear it!"]
         },
         {"tag": "doing_badly",
@@ -24,7 +24,7 @@
         "responses": ["That's unfortunate.", "Sorry to hear it."]
         },
         {"tag": "like",
-        "patterns": ["you're my friend", "I like you", "I love you", "you're cool", "you're chill"],
+        "patterns": ["you're my friend", "I like you", "I love you", "you're cool", "you're chill", "you're awesome"],
         "responses": ["I like you too!", "You're pretty cool yourself!", "I'm enjoying our conversation!"]
         },
         {"tag": "hate",
